@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/student1.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/index2.css">
+    <title>Student</title>
+</head>
+<body>
+  <br>
+  <div class="heading1" style="margin-left: 450px;" >
+
+		<h1 > <img src="http://drive.google.com/uc?export=view&id=1yKrAOHL2pVJED3LqgHqKYzPGhur4Cefl" alt="home" width="100"
+			height="100"  > Indian Institute of Information Technology</h1>
+	  </div>
+      <br><br>
+	<UL>
+		<LI>
+		  <a href="/">HOME</a>
+		</LI>
+		<LI>
+		  <a href="/stdSignUp">Student</a>
+		</LI>
+		<li>
+		  <a href="/teaSignUp">Faculty</a>
+		</li>
+		<LI>
+		  <a href="/eLibrary">E-Library</a>
+		</LI>
+		<li>
+		  <a href="/director">Department</a>
+		</li>
+		<li>
+		  <a href="/recruitment">Recruitment</a>
+		</li>
+		<li>
+		  <a href="/courses">Courses</a>
+		</li>
+		<li>
+		  <a href="/rti">RTI</a>
+		<li>
+		  <a href="#">About</a>
+		</li>
+	  </UL>
+	
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <br>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+<section class="hero-section">
+  <div class="card-grid">
+    <% studentDetails.forEach(function(student){ %>
+
+      <a class="card" href=<%= student %>>
+        <div class="card__background" style="background-image: url(http://drive.google.com/uc?export=view&id=1EvstLBtay9u8yWCrvEWX4VgfNn0wnS5W)"></div>
+        <div class="card__content">
+          <p class="card__category">Category</p>
+          <h3 class="card__heading"><%= student %></h3>
+        </div>
+      </a>
+    <% }); %>
+    
+  <div>
+</section>
+</body>
+</html>

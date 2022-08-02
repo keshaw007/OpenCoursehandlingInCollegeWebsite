@@ -1,0 +1,260 @@
+.login-form{
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding-left: 30%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    /* height: auto; */
+    
+}
+
+.login-box{
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.login-form form{
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+
+/* IIITN */
+.ins{
+    /* background-color: rgb(243, 204, 204); */
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    justify-content: center;
+    
+}
+.ins p{
+    margin: 30px;
+    margin-left: 40px;
+}
+.ins h3{
+    text-align: center;
+}
+.ins div{
+    background-color: rgb(243, 204, 204);
+    margin: 10px;
+}
+.content{
+    background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    /* text-align: center; */
+}
+.content h3{
+    text-align: center;
+}
+.content1 p{
+    /* background-color: turquoise; */
+    background-color: rgb(204, 154, 204);
+    margin: 30px;
+    padding: 20px;
+}
+.dir{
+    background-color: tomato;
+    /* height: 1200px; */
+    margin: 30px;
+}
+.dir1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;   
+}
+.apply{
+    width: auto;
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.apply li{
+    float: left;
+}
+.apply li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.apply li a:hover{background-color: #111;}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+  }
+  .nav li {
+    float: left;
+  }
+  .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .nav li a:hover {
+    background-color: #111;
+  }
+.content{
+    display: flex;
+    flex-direction: column;
+
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin: 0px;
+    
+}
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    margin-top: 40px;
+
+}
+.images{
+    display: flex;
+    background-color: aquamarine;   
+}
+.images1{
+    padding-left: 40px;
+width: 900px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.dmsg{
+    display: flex;
+background-color: purple;
+margin: 40px;
+}
+.dmsg, .images, .links{
+    margin: 30px;
+}
+.dmsg1{
+    align-content: space-around;
+    width: 40%;
+    margin-left: 30px;
+height: 300px;
+font-size: 23px;
+color: white;
+}
+.dmsg2{
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 500px;
+}
+.links{
+    display: flex;
+    background-color: rgb(43, 153, 216);
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+}
+.links div{
+    height: 600px;
+    background-color: mediumslateblue;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    
+}
+.glance{
+    display: flex;
+}
+.events{
+    display: flex;
+}
+.partners{
+    display: flex;
+}
+.testimonial{
+    display: flex;
+}
+.foot{
+    display: flex;
+    background-color: #05457B;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px; 
+}
+.foot div{
+    height: 600px;
+    background-color: blue;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.foot ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /* float: center; */
+    width: 100%;
+}
+.foot li{
+    float:center;
+}
+.foot li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.foot li a:hover{
+    background-color: #111;
+}
+.foot h3{
+    text-align: center;
+    color: burlywood;
+}
+.foot p{
+  float: center; 
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+    text-decoration: none;
+    font-size: x-large;
+}
